@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegistrationsComponent } from './components/registrations/registrations.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { FooterComponent } from './components/common/footer/footer.component';
-import { HeaderComponent } from './components/common/header/header.component';
 import { ScorebookComponent } from './components/scorebook/scorebook.component';
 
 @NgModule({
@@ -16,8 +14,6 @@ import { ScorebookComponent } from './components/scorebook/scorebook.component';
     LoginComponent,
     RegistrationsComponent,
     DashboardComponent,
-    FooterComponent,
-    HeaderComponent,
     ScorebookComponent
   ],
   imports: [
