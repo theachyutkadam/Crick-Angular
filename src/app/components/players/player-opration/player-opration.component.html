@@ -1,0 +1,22 @@
+<p>player-opration works!</p>
+<form [formGroup]="player_form" (ngSubmit)="savePlayer()">
+  <label>First Name</label>
+  <input formControlName="first_name"  placeholder="Enter Name">
+  <label>Middle Name</label>
+  <input formControlName="middle_name"  placeholder="Enter Age">
+  <label>Last Name</label>
+  <input formControlName="last_name"  placeholder="Enter City">
+  <label>Contact</label>
+  <input formControlName="contact" placeholder="Enter Country">
+  <label>Birth Date</label>
+  <input formControlName="birth_date" placeholder="Enter Country">
+  <label>Gender</label>
+  <input formControlName="gender" placeholder="Enter Country">
+  <!-- <label>User_Id</label>
+  <input formControlName="user_id" placeholder="Enter Country"> -->
+  <label>Speciality</label>
+  <input formControlName="speciality" placeholder="Enter Country">
+  <label>Avatar</label>
+  <input formControlName="avatar" placeholder="Enter Country">
+  <button type="submit">Submit</button>
+</form>
